@@ -1,0 +1,13 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_a,Entidad federativa,SECC II 2.23,Numérico,2,1 al 99
+bienjuri_b,Bien jurídico,SECC II 2.23,Numérico,2,1 al 99
+tipdelit_c,Tipo de delito,SECC II 2.23,Numérico,6,10100 al 999999
+ingrestt,Total,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingres1,Total - Hombres,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingres2,Total - Mujeres,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingress1,Primera vez - Subtotal,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingres3,Primera vez - Hombres,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingres4,Primera vez - Mujeres,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingress2,Reingresos - Subtotal,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingres6,Reingresos - Hombres,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"
+ingres7,Reingresos - Mujeres,SECC II 2.23,Carácter,20,"0-999999999999999, NA, NSS, ND, NULL"

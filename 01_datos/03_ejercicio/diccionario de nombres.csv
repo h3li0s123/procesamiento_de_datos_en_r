@@ -1,0 +1,22 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_a,Entidad federativa,SECC II 2.7,Numérico,2,1 al 99
+gdoestud_c,Nivel de escolaridad,SECC II 2.7,Numérico,1,1 al 9
+cafuaftt,Total,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf1,Total - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf2,Total - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf3,Fiscales del Ministerio Público - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf4,Fiscales del Ministerio Público - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf5,Agentes del Ministerio Público - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf6,Agentes del Ministerio Público - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf7,Secretarios del Ministerio Público - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf8,Secretarios del Ministerio Público - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf9,Actuarios del Ministerio Público - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf10,Actuarios del Ministerio Público - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf11,Peritos - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf12,Peritos - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf13,Policías ministeriales o investigadores o judiciales - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf14,Policías ministeriales o investigadores o judiciales - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf15,Personal administrativo y de apoyo - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf16,Personal administrativo y de apoyo - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf17,Otro - Hombres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+cafuaf18,Otro - Mujeres,SECC II 2.7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
