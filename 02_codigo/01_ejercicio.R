@@ -10,58 +10,6 @@ library(pacman)
 p_load(tidyverse, janitor, ggplot2, readr, readxl)
 
 
-## 1. Tasa de incidencia delictiva por entidad federativa de ocurrencia y tipo de delito, por cada cien mil habitantes.----
-
-##### Nota: Comencé a entender la base de datos de la ENVIPE pero no tuve tiempo para terminar de entender y continuar el ejercicio
-
-
-#### Cargamos la base de datos
-
-bd_envipe_2022 <- read_csv("01_datos/bd_envipe_2022.csv") %>% 
-  clean_names()
-
-#### Seleccionamos las columnas con las que trabajaremos
-
-bd_envipe_2022 %>% 
-  select(nd_tipo, td_tipo, bpcod, bp1_2c)%>% 
-  count(td_tipo) %>% 
-  summarise(total = sum(n))
-  
-bd_envipe_2022 %>% 
-  select(nd_tipo, td_tipo, bpcod, bp1_2c)%>% 
-  count(nd_tipo) %>% 
-  summarise(total = sum(n))
-
-bd_envipe_2022 %>% 
-  select(nd_tipo, td_tipo, bpcod, bp1_2c)%>% 
-  count(bpcod) %>% 
-  summarise(total = sum(n))
-
-
-#### 2.	Población de 18 años y más que habita en áreas urbanas de cien mil habitantes y más por entidad federativa, instituciones y sectores, según nivel de confianza en éstos.----
-
-##### Nota: Comencé a entender la base de datos de la ENCIG pero no tuve tiempo para terminar de entender y continuar el ejercicio
-
-
-#### Cargamos base de datos 
-
-
-bd_encig_2021 <- read_csv("01_datos/bd_encig_2021.csv") %>% 
-  clean_names()
-
-### Seleccionamos
-
-bd_encig_2021 %>% 
-  select(nom_ent, p11_1a_1) %>% 
-  group_by(nom_ent, p11_1a_1) %>% 
-  count(p11_1a_1) %>% 
-  ungroup() %>% 
-  summarise(total = sum(n))
-
-
-
-
-
 #### 3. Personal de las agencias y/o fiscalías del Ministerio Público de la Procuraduría General de Justicia o Fiscalía General, por entidad federativa y nivel de escolaridad según cargo y sexo. ----
 
 ###Obtenemos la base de datos y especificamos el tipo de variable
