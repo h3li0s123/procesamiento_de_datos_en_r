@@ -1,2 +1,2 @@
 # procesamiento_de_datos_en_r
-Procesamiento de datos en Rstudio. Se utilzó bases de datos del INEGI para crear tabuladores de datos
+Procesamiento de datos en Rstudio. Se utilzó bases de datos del INEGI para crear tabuladores de datos. En la carpeta "01_datos" econtrarás las bases de datos originales que descargas desde la página del INEGI. En la carpeta "01_codigo" se encuentra el script de R que utilicé para procesar los datos y convertirlos en los tabuladores que presenta el mismo INEGI, en la carpeta "04_respuesta_ejercicio" podrás descargar ese Excel.
