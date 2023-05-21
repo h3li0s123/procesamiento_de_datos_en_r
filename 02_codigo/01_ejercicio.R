@@ -1,5 +1,4 @@
 #### Código elaborado por Helios García
-#### Ejercicios para la vacante de Enlance Supervisor
 #### 30 de enero del 2023
 
 
